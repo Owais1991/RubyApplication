@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  new: MyString
-  show: MyString
+  message: MyText
+  user_id: 
+  user_type: User
 
 two:
-  new: MyString
-  show: MyString
+  message: MyText
+  user_id: 
+  user_type: User

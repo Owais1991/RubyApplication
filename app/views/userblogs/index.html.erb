@@ -1,0 +1,8 @@
+<div class"message" style="padding-left:100px">
+	<h2>User All messages<h2>
+	<%@users.each do |u|%>
+<h3>Posted by:</h3><%=u.user_type%><br/>
+<h3>Message:</h3> <%=u.message%><br/>
+<%end%>
+</div>
+

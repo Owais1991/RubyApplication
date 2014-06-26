@@ -1,11 +1,38 @@
 Rails.application.routes.draw do
-  get 'books/index'
+  resources 'userblogs'
+  #get 'userblogs/new'
 
-  get 'books/new'
+  #get 'userblogs/edit'
 
-  get 'books/show'
+  #get 'userblogs/destroy'
 
-  get 'new/show'
+  #get 'userblogs/update'
+
+  #get 'userblogs/show'
+
+  #get 'userblogs/create'
+
+  #get 'userblogs/index'
+
+  #get 'user_blogs/new'
+
+  #get 'user_blogs/index'
+
+  #get 'user_blogs/destroy'
+
+  #get 'user_blogs/update'
+
+  #get 'user_blogs/edit'
+
+  #get 'user_blogs/create'
+
+  #get 'books/index'
+
+  #get 'books/new'
+
+  #get 'books/show'
+
+  #get 'new/show'
 
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.

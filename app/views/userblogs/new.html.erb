@@ -1,0 +1,11 @@
+<div class="area" style="padding-left:100px">
+
+	<label>Enter your comments</label><br/>
+<%=form_for :user,:url=>'/userblogs' do |f|%>	
+<%=f.text_area :message%>
+</textarea><br/>
+ <label>Enter user type</label><br/><%=f.text_field :user_type%><br/>
+ <label>Enter user id</label><br/><%=f.text_field :user_id%><br/><br/>
+<%=f.submit value="Post Comments"%>
+<%end%>
+</div>
